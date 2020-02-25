@@ -61,9 +61,7 @@ $this->registerCssFile("@web/css/mio.css", [
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-left">&copy; Oscar Megía López - Alpe Formacion 2020</p>
     </div>
 </footer>
 
