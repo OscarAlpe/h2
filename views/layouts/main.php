@@ -11,6 +11,9 @@ use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
 AppAsset::register($this);
+
+$this->registerCssFile("@web/css/mio.css", [
+    'depends' => [\yii\bootstrap\BootstrapAsset::className()]]);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
