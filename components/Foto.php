@@ -15,6 +15,9 @@ class Foto extends Widget
     }
     
     public function run() {
-        return Html::img("@web/imgs/$this->nombre", ["alt" => $this->alternativo]);
+        return Html::img("@web/imgs/$this->nombre", [
+            "alt" => $this->alternativo,
+            "class" => "img-responsive",    
+        ]);
     }
 }
